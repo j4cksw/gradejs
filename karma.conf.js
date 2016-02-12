@@ -17,7 +17,7 @@ module.exports = function(config) {
     files: [
         'bower_components/angular/angular.js',
         'src/grade.js',
-        'src/grade_controller.js',
+        //'src/grade_controller.js',
         'test/**/*.js'
     ],
 
