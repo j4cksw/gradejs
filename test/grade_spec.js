@@ -15,4 +15,8 @@ describe('Grade', function(){
     it('score lower than 80 should be B', function(){
         expect(gradeCalculator.calculateScore(79)).toBe("B");
     });
+
+    it('score lower than 70 should be C', function(){
+        expect(gradeCalculator.calculateScore(69)).toBe("C");
+    });
 });
