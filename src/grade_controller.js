@@ -7,9 +7,8 @@
 
         $scope.executeGrade = executeGrade;
         $scope.score = 0;
-        
+
         function executeGrade(){
-            console.log($scope.score);
             $scope.result = gradeCalculator.calculateScore($scope.score);
         }
     }
