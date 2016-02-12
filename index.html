@@ -7,7 +7,7 @@
 <body ng-app="GradeJS" ng-controller="GradeController">
     <h1>
         <span > Score: </span>
-        <input type="text" id="score" ng-bind="score">
+        <input type="text" id="score" ng-model="score">
         <input type="submit" id="submit" ng-click="executeGrade()">
         <br>
         <div ng-show="result" ng-bind-template="Your grade is {{result}}"></div>
