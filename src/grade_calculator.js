@@ -6,6 +6,9 @@
     }
 
     GradeCalculator.prototype.calculateScore = function(score){
+        if( score < 80 ){
+            return "B";
+        }
         return "A";
     };
 })();
