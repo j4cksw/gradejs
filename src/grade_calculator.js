@@ -6,6 +6,12 @@
     }
 
     GradeCalculator.prototype.calculateScore = function(score){
+        if( score < 50 ){
+            return "F";
+        }
+        if( score < 60 ){
+            return "D";
+        }
         if( score < 70 ){
             return "C";
         }
