@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "angular-mocks": "^1.5.0",
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.7.0",
     "grunt-contrib-concat": "^0.5.1",
@@ -17,7 +18,7 @@
     "grunt-mkdir": "^0.1.2",
     "jasmine-core": "^2.4.1",
     "karma": "^0.13.19",
-    "karma-jasmine": "^0.3.7",
-    "karma-chrome-launcher": "^0.2.1"
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-jasmine": "^0.3.7"
   }
 }

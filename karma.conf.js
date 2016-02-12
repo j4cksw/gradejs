@@ -16,7 +16,9 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
         'bower_components/angular/angular.js',
+        'bower_components/angular-mocks/angular-mocks.js',
         'src/grade.js',
+        'src/grade_calculator.js',
         //'src/grade_controller.js',
         'test/**/*.js'
     ],
