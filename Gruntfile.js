@@ -4,6 +4,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-mkdir');
+    grunt.loadNpmTasks('grunt-karma');
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -39,7 +40,13 @@ module.exports = function(grunt) {
                 },
             },
         },
+        karma: {
+            unit: {
+                configFile: 'karma.conf.js'
+            }
+        },
     });
 
     grunt.registerTask('build', ['clean', 'concat', 'mkdir', 'copy']);
+    grunt.registerTask('test', ['clean', 'concat', 'karma']);
 };
