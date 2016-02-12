@@ -1,0 +1,22 @@
+{
+  "name": "gradejs",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Prayoch Rujira <jay@odd-e.co.th>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular": "^1.5.0"
+  }
+}
